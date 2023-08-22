@@ -42,7 +42,7 @@ function Navbar() {
       </ul>
       <div
         onClick={() => setNavState(!navstate)}
-        className="cursor-pointer pr-4 z-10 text-gray-500"
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {navstate ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
